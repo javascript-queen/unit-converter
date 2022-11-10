@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Ghoust Outline";
+  src: url(./assets/fonts/GhoustOutline.otf);
+}
+
+body {
+  width: 700px;
+  margin: 200px auto;
+  background-image: url("./assets/img/bricks.jpg");
+  background-size: cover;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:antiquewhite;
+  color: black;
+  font-size: 1.7em;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-bottom: 40px;
+  box-shadow: 20px 30px 20px rgba(0, 0, 0, 5);
+}
+
+h1 {
+  font-family: "Ghoust Outline";
+}
+
+input {
+  margin-bottom: 40px;
+  border: none;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 5);
+  outline: none;
+  height: 100px;
+  border-radius: 22px;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 20px; 
+  font-size: 1em;
+}
+
+#convert-btn {
+  background-image: url("./assets/img/bricks.jpg");
+  background-size: cover;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  text-shadow: 3px 3px 3px black;
+  cursor: pointer;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 5);
+  border-color: transparent;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(135, 135, 199);
+  color: #fff;
+  text-shadow: 3px 3px 3px black;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 20px 30px 20px rgba(0, 0, 0, 5);
+}
