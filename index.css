@@ -29,6 +29,10 @@ h1 {
   font-family: "Ghoust Outline";
 }
 
+p {
+  font-size: 1em;
+}
+
 input {
   margin-bottom: 40px;
   border: none;
